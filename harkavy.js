@@ -15,7 +15,7 @@ show_translations = function() {
 
     search_harkavy(guesses($F('words').trim().split(/\s+/))).each(function (page) {
         var link = document.createElement('a')
-        link.appendChild(document.createTextNode(page.word))
+        link.appendChild(document.createTextNode(page.number+":"+page.word))
         link.setAttribute('href', pages_prefix+page.href)
         $('translations').appendChild(link)
         $('translations').appendChild(document.createTextNode(" "))

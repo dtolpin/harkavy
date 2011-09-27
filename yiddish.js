@@ -3,6 +3,7 @@
 /* expand ligatures and remove diacritics */
 normal = function (word) {
     return word.
+        toLowerCase().
         replace(/װ/g, 'וו').
         replace(/ױ/g, 'וי').
         replace(/ײ/g, 'יי').
