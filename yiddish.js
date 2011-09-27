@@ -9,15 +9,14 @@ normal = function (word) {
         replace(/[ִַָּֿ]/g, '')
 }
 
-/* replace archaic prefixes and suffixes */
+/* harkavize prefixes and suffixes */
 variant = function (word) {
     return word.
-        replace(/^הערו/, "ארו").
-        replace(/^ער/, "דער").
-        replace(/^פער/, "פאר").
-        replace(/^צו/, "צע").
-        replace(/ליך$/, "לעך").
-        replace(/ען$/, "ן")
+        replace(/^ארו/, "הערו").
+        replace(/^דער/, "ער").
+        replace(/^פאר/, "פער").
+        replace(/^צע/, "צו").
+        replace(/לעך$/, "ליך")
 }
 
 /* generate a list of guesses from a list of words */

@@ -8,13 +8,15 @@ removeAllChildren = function (node) {
         node.removeChild(node.firstChild)
 }
 
+pages_prefix = "../data/"
+
 showguesses = function() {
     removeAllChildren($('guesses'))
 
-    guesses($F('words').trim().split(/\s+/)).each(function (word) {
+    search_harkavy(guesses($F('words').trim().split(/\s+/))).each(function (page) {
         var link = document.createElement('a')
-        link.appendChild(document.createTextNode(word))
-        link.setAttribute('href', '')
+        link.appendChild(document.createTextNode(page.word))
+        link.setAttribute('href', pages_prefix+page.href)
         $('guesses').appendChild(link)
         $('guesses').appendChild(document.createTextNode(" "))
     })
