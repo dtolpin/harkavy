@@ -1,6 +1,6 @@
 init = function () {
     $('words').value="עטלעכע װערטער"
-    $$('form')[0].onsubmit = showguesses
+    $$('form')[0].onsubmit = show_translations
 }
 
 removeAllChildren = function (node) {
@@ -8,17 +8,17 @@ removeAllChildren = function (node) {
         node.removeChild(node.firstChild)
 }
 
-pages_prefix = "../data/"
+pages_prefix = "http://www.cs.uky.edu/~raphael/yiddish/harkavy/"
 
-showguesses = function() {
-    removeAllChildren($('guesses'))
+show_translations = function() {
+    removeAllChildren($('translations'))
 
     search_harkavy(guesses($F('words').trim().split(/\s+/))).each(function (page) {
         var link = document.createElement('a')
         link.appendChild(document.createTextNode(page.word))
         link.setAttribute('href', pages_prefix+page.href)
-        $('guesses').appendChild(link)
-        $('guesses').appendChild(document.createTextNode(" "))
+        $('translations').appendChild(link)
+        $('translations').appendChild(document.createTextNode(" "))
     })
     return false
 }

@@ -1,0 +1,34 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Harkavy Yiddish&#8660;English Dictionary</title>
+    <style type="text/css">
+      body {direction: rtl}
+      h1 {text-align: center}
+      form > p {text-align: center}
+      div.translations {margin: 0% 5%; padding: 1em; height: 2em; border: thin solid black; text-align: center }
+      div.translations > a {margin: 1em; text-align: center; text-align-last: justify}
+      div.indices {margin: 0% 10%}
+    </style>
+    <script type="text/javascript" src="prototype.js" > </script>
+    <script type="text/javascript" src="yiddish.js"> </script>
+    <script type="text/javascript" src="pages.js"> </script>
+    <script type="text/javascript" src="search.js"> </script>
+    <script type="text/javascript" src="harkavy.js"> </script>
+  </head>
+  <body onload="init()">
+    <h1>יידיש־ענגליש װערטערבוך פון האַרקאַװי</h1>
+    <form method="get" action="">
+      <p>
+        <label for="words">װערטער:</label> <input id="words" type="text" name="words" size="32"/> 
+       <input type="submit" value="איבערזעצן" />
+      </p>
+    </form>
+    <div class="translations" id="translations">
+    </div>
+    <div class="indices" id="indices">
+      <p style="float: left"><a href="http://www.cs.uky.edu/~raphael/yiddish/harkavy/index.utf8.html#ed">English Index</a></p>
+      <p style="float: right"><a href="http://www.cs.uky.edu/~raphael/yiddish/harkavy/index.utf8.html#yd">ײִדיש אָנצײגער</a></p>
+      <br style="clear: both" />
+    </div>
+  </body>
+</html>
