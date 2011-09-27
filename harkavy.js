@@ -1,5 +1,4 @@
 init = function () {
-    $('words').value="עטלעכע װערטער"
     $$('form')[0].onsubmit = show_translations
 }
 
