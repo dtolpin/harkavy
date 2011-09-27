@@ -7,7 +7,7 @@ normal = function (word) {
         replace(/װ/g, 'וו').
         replace(/ױ/g, 'וי').
         replace(/ײ/g, 'יי').
-        replace(/[ִַָּֿ]/g, '')
+        replace(/[ִַָּֿׂ]/g, '')
 }
 
 /* harkavize prefixes and suffixes */
