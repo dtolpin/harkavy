@@ -1,6 +1,6 @@
 /** Yiddish normalization routines */
 
-/* expand ligatures and remove diactritics */
+/* expand ligatures and remove diacritics */
 normal = function (word) {
     return word.
         replace(/װ/g, 'וו').

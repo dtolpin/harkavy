@@ -11,7 +11,7 @@ removeAllChildren = function (node) {
 showguesses = function() {
     removeAllChildren($('guesses'))
 
-    guesses($F('words').split(/\s+/)).each(function (word) {
+    guesses($F('words').trim().split(/\s+/)).each(function (word) {
         var link = document.createElement('a')
         link.appendChild(document.createTextNode(word))
         link.setAttribute('href', '')
