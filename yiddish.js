@@ -1,19 +1,20 @@
 /** Yiddish normalization routines */
 
-/* expand ligatures and remove diacritics */
+/* expand ligatures and remove diacritics and in-word punctuation */
 normal = function (word) {
     return word.
         toLowerCase().
         replace(/װ/g, 'וו').
         replace(/ױ/g, 'וי').
         replace(/ײ/g, 'יי').
-        replace(/[ִַָּֿׂ]/g, '')
+        replace(/[ִַָּֿׂ־׳״.]/g, '')
 }
 
 /* harkavize prefixes and suffixes */
 variant = function (word) {
     return word.
         replace(/^ארו/, "הערו").
+        replace(/^בא/, "בע").
         replace(/^דער/, "ער").
         replace(/^פאר/, "פער").
         replace(/^צע/, "צו").
