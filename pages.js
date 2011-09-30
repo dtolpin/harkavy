@@ -623,7 +623,7 @@ harkavy_pages =
       {word:"hound", number:272, href:"0869.png"},
       {word:"hoy", number:273, href:"0868.png"},
       {word:"humectate", number:274, href:"0867.png"},
-      {word:"harly", number:275, href:"0866.png"},
+      {word:"hurly", number:275, href:"0866.png"},
       {word:"hydrocele", number:276, href:"0865.png"},
       {word:"hylozoism", number:277, href:"0864.png"},
       {word:"hysterical", number:278, href:"0863.png"},
