@@ -248,7 +248,7 @@ harkavy_pages =
       {word:"פּרודזשען", number:245, href:"0261.png"},
       {word:"פּריפּאַס", number:246, href:"0262.png"},
       {word:"פּתחון־פּה", number:247, href:"0263.png"},
-      {word:"צצצ", number:247, href:"0263.png"},
+      {word:"פּתתת", number:247, href:"0263.png"},
       {word:"פֿ", number:247, href:"0263.png"},
       {word:"פֿאַלץ", number:248, href:"0264.png"},
       {word:"פֿאָספֿאָר", number:249, href:"0265.png"},
