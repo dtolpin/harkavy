@@ -3,8 +3,8 @@ link_prefix = "http://www.cs.uky.edu/~raphael/yiddish/harkavy/" /* web */
 
 /* end of tuneups */
 
-links = { 'english-index-link':"index.utf8.html#yd", 
-          'yiddish-index-link':"index.utf8.html#ed" }
+links = { 'english-index-link':"index.utf8.html#ed", 
+          'yiddish-index-link':"index.utf8.html#yd" }
 
 init = function () {
     $$('form')[0].onsubmit = show_translations
