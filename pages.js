@@ -105,7 +105,7 @@ harkavy_pages =
       {word:"גי־", number:102, href:"0118.png"},
       {word:"גלאָצער", number:103, href:"0119.png"},
       {word:"גלעטען", number:104, href:"0120.png"},
-      {word:"גענגען", number:105, href:"0121.png"},
+      {word:"געגנען", number:105, href:"0121.png"},
       {word:"געהעריג", number:106, href:"0122.png"},
       {word:"געזעץ־געבונג", number:107, href:"0123.png"},
       {word:"געמעל", number:108, href:"0124.png"},
