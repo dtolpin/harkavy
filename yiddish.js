@@ -13,6 +13,7 @@ normal = function (word) {
 /* harkavize prefixes and suffixes */
 variant = function (word) {
     return word.
+	replace(/^אפ/, "אב").
         replace(/^ארו/, "הערו").
         replace(/^בא/, "בע").
         replace(/^דער/, "ער").
