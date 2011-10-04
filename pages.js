@@ -239,7 +239,7 @@ harkavy_pages =
       {word:"פּאָקופּקע", number:236, href:"0252.png"},
       {word:"פּאָרקע", number:237, href:"0253.png"},
       {word:"פּוסטערקע", number:238, href:"0254.png"},
-      {word:"פּאַטראָן", number:239, href:"0255.png"},
+      {word:"פּטרן", number:239, href:"0255.png"},
       {word:"פּיקע", number:240, href:"0256.png"},
       {word:"פּלױדערער", number:241, href:"0257.png"},
       {word:"פּסאַלם", number:242, href:"0258.png"},
