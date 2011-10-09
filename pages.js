@@ -680,7 +680,7 @@ harkavy_pages =
       {word:"lagger", number:329, href:"0812.png"},
       {word:"landau", number:330, href:"0811.png"},
       {word:"lap-dog", number:331, href:"0810.png"},
-      {word:"lacket", number:332, href:"0809.png"},
+      {word:"lasket", number:332, href:"0809.png"},
       {word:"launch", number:333, href:"0808.png"},
       {word:"layer", number:334, href:"0807.png"},
       {word:"least", number:335, href:"0806.png"},
